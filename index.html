@@ -10,19 +10,28 @@
 <title>Desafio Final</title>
 </head>
 <body>
-    <nav class="navbar bg-success bg-opacity-75">
-            <div class="container-fluid">
-              <a class="navbar-brand text-light">
-                <img src="assets/img/logo.jpg" alt="" width="80" height="50"> <h2  class="d-inline-block ">Roger Rodriguez</h2>
-              </a>
-              
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-    </nav>
-    <header id="inicial" class="pt-3 ps-0">
+  <nav class="navbar navbar-expand-lg bg-success bg-opacity-75">
+    <div class="container-fluid " >
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.jpg" alt="logo" width="80" height="50"> <h2  class="d-inline-block text-white ">Roger Rodriguez</h2>
+      </a>
+      
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active text-white   fs-4" aria-current="page" href="#descripcion">Sobre Mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fs-4" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fs-4" href="#contacto">Contactame</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>      
+  <header id="portada" class="pt-3 ps-0">
       <article class="container ps-0">
           <div class=" col-12 col-md-6 ">
               <p class="text-light fs-5 fw-bolder">Puedo Decir de Mi: <br>
@@ -32,7 +41,11 @@
           </div>
       </article>
     </header>
-    <main   class="my-5 p-4 bg-success bg-opacity-100">
+    <section id="descripcion">
+      Puedo Decir de Mi:
+Soy Aprendiz de JavaScript full stack, ingles básico, conocimientos de docencia de biología, persona amable, trabajador en equipo, respetuoso, sociable, con aptitudes organizativas, lógicas, espaciales y deportivas.
+    </section>
+    <main  id="proyectos" class="my-5 p-4 bg-success bg-opacity-75">
         <h2 class="display-4 fw-bold text-center text-light mb-3">Mis Proyectos Iniciales</h2>
         <article class="row">
           <div class="col-12  col-md-6 col-lg-4 py-2 ps-2">
@@ -70,7 +83,7 @@
               <img src="assets/img/cuarto_proyecto.PNG" class="card-img-top" alt="page_iguana">
               <div class="card-body">
                 <h5 class="card-title text-center">Cuarto Proyecto</h5>
-                <p class="card-text pb-4">seguimos con el cuarto proyecto de desafío fue crear un cupón  usando bootstrap.</p>
+                <p class="card-text pb-5">Seguimos con el cuarto proyecto de desafío crear un cupón  usando bootstrap.</p>
                 <a href="https://roger-rd.github.io/4to_Desafio_Bootstrap_Desafio_Latam/" target="_blank" class="btn btn-primary">Visitar Pagina</a>
               </div>
             </div>
@@ -80,13 +93,33 @@
               <img src="assets/img/Quinto_proyecto.PNG" class="card-img-top" alt="clone_repositorio">
               <div class="card-body">
                 <h5 class="card-title text-center">Quinto Proyecto</h5>
-                <p class="card-text pb-4">Finalizamos con el Quinto proyecto proyecto de desafio se aprende el uso de git y github, se clona un repositorio y modifica.</p>
+                <p class="card-text pb-4">Finalizamos con el Quinto proyecto de desafío se aprende el uso de Git y Github, se clona un repositorio y modifica.</p>
                 <a href="https://roger-rd.github.io/fdsw-github/" target="_blank" class="btn btn-primary">Visitar Pagina</a>
               </div>
             </div>
           </div>
         </article>
     </main>
+    <form id="contacto" class="Form-contacto px-4">
+      <h2 class="display-4 fw-bold text-center text-dark mb-3">Contacto</h2>
+      <div class="form-group mb-4">
+          <label class="mb-2">Nombre</label>
+          <input class="form-control" placeholder="Nombre">
+      </div>
+      <div class="form-group mb-4">
+          <label class="mb-2">Correo electrónico</label>
+          <input class="form-control" placeholder="Correo electrónico" />
+      </div>
+      <div class="form-group">
+          <label class="mb-2">Mensaje</label>
+          <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+      </div>
+      <div class="my-3 text-end">
+          <button class="btn btn-info text-light">Enviar</button>
+      </div>
+  </form>
+
+
     <footer class="bg-dark bg-opacity-75 text-center text-light p-2">
       <div class="d-flex"> 
       <p class="p-2 flex-grow-1">Roger Rodriguez 2022. Todos los derechos reservados.</p> 

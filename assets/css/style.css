@@ -1,8 +1,8 @@
 body{
-    background-color: #fff 
+    background-color: rgb(159, 180, 238) 
 }
 
-#inicial{
+#portada{
     background-image: url(../img/me_office.jpg);
     width:100%;
     height: 600px;
