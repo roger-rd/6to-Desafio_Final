@@ -14,4 +14,22 @@ body{
     background-position: left;
   }
 
+  #primer:hover {
+    transform: scale(1.05,1.05);
+  }
   
+  #segundo:hover {
+    transform: scale(1.05,1.05);
+  }
+
+  #tercero:hover {
+    transform: scale(1.05,1.05);
+  }
+
+  #cuarto:hover {
+    transform: scale(1.05,1.05);
+  }
+
+  #quinto:hover {
+    transform: scale(1.05,1.05);
+  }
